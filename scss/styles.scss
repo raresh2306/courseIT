@@ -31,7 +31,13 @@
     color: #f5853f; /* Default text color */
     transition: transform 0.3s ease ;
   }
+.btn {
+  transition: transform 0.3s ease;
+}
 
+.btn:hover {
+  transform: scale(1.1);
+}
 
 
 
