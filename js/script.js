@@ -5,7 +5,7 @@ function Scroll(){
 
     window.addEventListener('scroll', () => {
 
-        if(window.scrollY > 80 ){
+        if(window.scrollY > 40 ){
             navbar.classList.add('bg-dark');
             navbar.classList.add('navbar-sticky');
         }
