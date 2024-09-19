@@ -1,0 +1,72 @@
+// Font
+$font-family-sans-serif: 'Montserrat', sans-serif;
+
+
+//Colors
+
+$primary: #f5853f;
+$secondary: #332E3C;
+$light: #FFFFEA;
+$success: #0E9594;
+$body-bg: $light;
+$warning: #774936;
+
+//Spacing
+$spacer: 1rem !default;
+$spacers: (
+  0: 0,
+  1: $spacer * .25,
+  2: $spacer * .5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+  6: $spacer * 6,
+  7: $spacer * 8,
+  8: $spacer * 12,
+  9: $spacer * 20,
+  ) !default;
+
+
+$headings-margin-bottom: $spacer * 1;
+$line-height-base: 1.7;
+
+//navbar
+$navbar-nav-link-padding-x: 0.85rem;
+$navbar-padding-y: 1rem;
+$navbar-dark-color: $light;
+
+.navbar-dark .navbar-toggler-icon {
+  background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30"%3E%3Cpath stroke="rgba(245, 133, 63, 1)" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"/%3E%3C/svg%3E'
+  );
+}
+
+
+.navbar-nav .nav-link {
+  font-size: 1.25rem;
+  /* Increase the font size */
+  padding: 0.75rem 1rem;
+  /* Adjust padding to keep spacing consistent */
+}
+
+
+//buttons
+$button-radius: 50px;
+$button-padding-x: 30px;
+$button-padding-y: 10px;
+
+$btn-border-radius: $button-radius;
+$btn-border-radius-sm: $button-radius;
+$btn-border-radius-lg: $button-radius;
+$btn-padding-y: $button-padding-y;
+$btn-padding-y-lg: $button-padding-y;
+$btn-padding-y-sm: $button-padding-y;
+$btn-padding-x: $button-padding-x;
+$btn-padding-x-lg: $button-padding-x;
+$btn-padding-x-sm: $button-padding-x;
+
+
+$navbar-toggler-border-radius: 5px;
+
+$headings-font-weight: bold;
+
+@import '../node_modules/bootstrap/scss/bootstrap';

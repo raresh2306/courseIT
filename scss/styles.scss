@@ -1,0 +1,98 @@
+.header{
+    min-height: 1000px;
+    background: linear-gradient(to bottom right,rgba(0,0,0,0.25), rgba(0,0,0, 0.25)), url('../images/header-background.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+
+.invitation-bg{
+  background: linear-gradient(to bottom right, rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url('../images/corporate.jpg') center center no-repeat;
+  background-size: cover;
+}
+
+
+@media (max-width: 992px){
+    .navbar{
+        background: rgba($color: #332E3C, $alpha: 0.75);
+    }
+    
+    .header{height: 1000px !important; min-height: 1000px !important; }
+
+    .header .text-container p {width:100% !important; font-size: 16px;}
+
+    .register {padding: 70px 0 !important;}
+
+    .register h2{text-align: center; }
+
+    .summary{ width: 90% !important; margin-top: 0 !important;}
+}
+
+.btn-primary {
+    color: #f5853f; /* Default text color */
+    transition: transform 0.3s ease ;
+  }
+
+
+
+
+  
+  /* Hover state */
+
+
+  .btn-primary:hover {
+    color: #774936;; /* Text color when hovering */
+    background-color: #774936; /* Optionally change the background on hover */
+    border-color: #774936; /* Optionally change the border color on hover */
+    transform: scale(1.1);
+    
+  }
+
+ 
+
+
+  .header .slide{
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .form-check-input.checkbox:checked {
+    background-color: #332E3C; /* Dark color when checked */
+    border-color: #332E3C; /* Dark border color when checked */
+  }
+
+
+  .navbar{
+    transition: all 0.5s ease-in-out;
+    opacity: 0.9;
+  }
+
+  .summary{text-align: center;}
+
+
+  .navbar-nav .nav-link:hover {
+    color: #f5853f ; /* Change to primary color on hover */
+    transition: color 0.3s ease, transform 0.3s; /* Smooth transition on hover */
+    transform: scale(1.1);
+  }
+
+
+  .navbar-nav .nav-link{
+    color: #ffffff;
+  }
+
+  .card {
+    transition: transform 0.3s ease; /* Smooth transition for the scaling effect */
+  }
+  
+  .card:hover {
+    transform: scale(1.1); /* Scale the card to 110% of its original size */
+  }
+
+
+  .btn-warning { color: #774936; transition: transform 0.3s ease; }
+  .btn-warning:hover{ transform: scale(1.1); }
+
+
+  html {
+    scroll-padding-top: 110px; /* Adjust to the height of your fixed navbar */
+  }
